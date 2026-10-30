@@ -1,0 +1,40 @@
+.holiday-card {
+  flex: 0 0 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 1.25rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+  border: 1px solid #e2e8f0;
+  color: black;
+}
+
+.holiday-card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 0.75rem;
+}
+
+.holiday-badge {
+  display: inline-flex;
+  align-items: center;
+  padding: 0.25rem 0.5rem;
+  font-size: 0.85rem;
+  font-weight: 600;
+  border-radius: 8px;
+  background-color: #e0f2fe;
+  color: #0369a1;
+}
+
+.future-holiday{
+  background-color: lightgrey;
+  color: black;
+}
+
+.past-holiday{
+  background-color: red;
+  color: white;
+  opacity: 0.3;
+}
