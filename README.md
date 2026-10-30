@@ -1,9 +1,27 @@
 
-# Public holiday tracker 🏖️
+# Holiday Tracker 🏖️
 
-This project is a service to help employees in the company keep track public holidays in the countries where we operate.
+This project is a service to help employees in the company keep track holidays in the countries where we operate.
+
+## Usage
+
+### 1. MVP CLI
+
+1. Install `cd cli && npm i`
+2. Run e.g.  `npm run start -- --country "United Kingdom"`
+3. A CSV file should be created in the same directory e.g. `Holidays-United Kingdom-2026.csv`
+
+### 2. MVP Portal
+
+1. Install backend `cd backend && npm i`
+2. Start backend `npm start`
+3. Install frontend `cd frontend && npm i`
+4. Start frontend `npm run dev`
+5. Portal should be running here http://localhost:5173/
 
 **Minimize use of dependancies**
+
+**NOTE THAT DUE TO TIME CONSTRAINTS THERE ARE NOT ANY TESTS IN PLACE**
 
 ## 1. MVP (script 💻)
 
