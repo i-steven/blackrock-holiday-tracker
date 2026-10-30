@@ -5,14 +5,14 @@ const HOLIDAY_API_BASE_URL = 'https://nagerholidays.com/api/v4';
 
 const CSV_HEADER = 'Country,Name of the holiday,Date of the holiday,Days until holiday takes place (blank if passed),Holiday takes place at weekend (Yes/No)';
 
-interface Holiday{     
-    date: string,
-    name: string,
-    country: string,
-    countryCode: string,
-    nationalHoliday: false,
-    subdivisionCodes: string[],
-    holidayTypes: string[]
+interface Holiday {     
+    date: string;
+    name: string;
+    country?: string;
+    countryCode: string;
+    nationalHoliday: boolean;
+    subdivisionCodes: string[];
+    holidayTypes: string[];
 };
 
 interface Country{
